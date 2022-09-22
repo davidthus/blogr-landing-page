@@ -4,6 +4,12 @@ export const GlobalStyle = createGlobalStyle`
   body {
     font-size: 16px;
   }
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
 `;
 
 export const theme = {

@@ -1,10 +1,13 @@
 import React from "react";
-import styled from "styled-components";
-
-const HeaderContainer = styled.header``;
+import { HeaderContainer } from "./Header.style";
+import Navbar from "./Navbar";
 
 function Header() {
-  return <HeaderContainer></HeaderContainer>;
+  return (
+    <HeaderContainer>
+      <Navbar />
+    </HeaderContainer>
+  );
 }
 
 export default Header;

@@ -1,15 +1,19 @@
 import styled from "styled-components";
 import { Bottom, Footer, Header, Middle, Top } from "./components";
 
+const AppContainer = styled.div`
+  width: 100%;
+`;
+
 function App() {
   return (
-    <div>
+    <AppContainer>
       <Header />
       <Top />
       <Middle />
       <Bottom />
       <Footer />
-    </div>
+    </AppContainer>
   );
 }
 
