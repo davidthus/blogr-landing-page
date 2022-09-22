@@ -1,7 +1,7 @@
-import Bottom from "./Bottom";
-import Footer from "./Footer";
-import Header from "./Header";
-import Middle from "./Middle";
-import Top from "./Top";
+import Bottom from "./Bottom/Bottom";
+import Footer from "./Footer/Footer";
+import Header from "./Header/Header";
+import Middle from "./Middle/Middle";
+import Top from "./Top/Top";
 
 export { Header, Footer, Top, Middle, Bottom };
