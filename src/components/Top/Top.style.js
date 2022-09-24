@@ -73,8 +73,7 @@ export const Article = styled.article`
 
 export const Paragraph = styled.p`
   font-family: "Overpass", sans-serif;
-  color: ${(props) => props.theme.headings};
-  opacity: 0.8;
+  color: ${(props) => props.theme.bodycopy};
   font-size: 0.9rem;
   text-align: left;
   line-height: 2rem;

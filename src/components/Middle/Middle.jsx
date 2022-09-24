@@ -11,9 +11,9 @@ import {
 function Middle() {
   return (
     <Container>
-      <asid>
+      <aside>
         <PhonesImage src={Phones} alt="phones" />
-      </asid>
+      </aside>
       <ArticleContainer>
         <ArticleHeading>State of the Art Infrastructure</ArticleHeading>
         <Paragraph>
