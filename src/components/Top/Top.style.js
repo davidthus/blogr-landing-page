@@ -9,7 +9,7 @@ export const Container = styled.section`
   align-items: center;
   background-image: url(${DesktopEditor});
   background-repeat: no-repeat;
-  height: 120vh;
+  height: 1000px;
   background-position: top 50px right -295px;
 
   @media screen and (max-width: 1050px) {
@@ -78,7 +78,7 @@ export const Paragraph = styled.p`
   text-align: left;
   line-height: 2rem;
   font-size: 1.1rem;
-  font-weight: 600;
+  font-weight: 300;
 
   @media screen and (max-width: 875px) {
     text-align: center;
@@ -102,7 +102,7 @@ export const ArticlesContainer = styled.div`
     padding-left: 0;
     padding-top: 4rem;
     align-items: center;
-    margin-bottom: 18rem;
+    margin-bottom: 9rem;
   }
 `;
 

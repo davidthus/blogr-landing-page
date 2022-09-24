@@ -21,7 +21,7 @@ export const Container = styled.section`
 
   @media screen and (max-width: 875px) {
     flex-direction: column;
-    height: 80vh;
+    height: 700px;
     padding-bottom: 4rem;
     justify-content: flex-end;
     background-position: bottom -50% center;
@@ -29,6 +29,10 @@ export const Container = styled.section`
 
   @media screen and (max-width: 470px) {
     padding-bottom: 8rem;
+  }
+
+  @media screen and (max-width: 300px) {
+    padding-bottom: 4rem;
   }
 `;
 
@@ -78,7 +82,7 @@ export const Paragraph = styled.p`
   text-align: left;
   line-height: 2rem;
   font-size: 1.1rem;
-  font-weight: 600;
+  font-weight: 300;
 
   @media screen and (max-width: 875px) {
     text-align: center;
