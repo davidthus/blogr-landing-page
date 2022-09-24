@@ -21,7 +21,7 @@ export const Container = styled.section`
   }
 
   @media screen and (max-width: 970px) {
-    background-position: top 50px right -420px;
+    background-position: top 100px right -420px;
   }
 
   @media screen and (max-width: 875px) {
@@ -51,8 +51,8 @@ export const Heading = styled.h3`
   letter-spacing: -1px;
 
   @media screen and (max-width: 480px) {
-    font-size: 2rem;
     text-align: center;
+    font-size: 2rem;
   }
 `;
 
@@ -93,6 +93,7 @@ export const ArticlesContainer = styled.div`
   padding-top: 8rem;
   padding-left: 10rem;
   gap: 5rem;
+  margin-bottom: 6rem;
 
   @media screen and (max-width: 1180px) {
     padding-left: 4rem;
@@ -102,6 +103,7 @@ export const ArticlesContainer = styled.div`
     padding-left: 0;
     padding-top: 4rem;
     align-items: center;
+    margin-bottom: 18rem;
   }
 `;
 
