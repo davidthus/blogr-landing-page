@@ -22,6 +22,10 @@ export const DropdownLinksContainer = styled.ul`
   }
 `;
 
+export const HamburgerWrapper = styled.div`
+  cursor: pointer;
+`;
+
 export const SignInContainer = styled.div`
   display: flex;
   gap: 2.5rem;
@@ -61,7 +65,6 @@ export const SignUp = styled.button`
 export const HamburgerContainer = styled.div`
   position: relative;
   display: none;
-  cursor: pointer;
 
   @media screen and (max-width: 930px) {
     display: flex;

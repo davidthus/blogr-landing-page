@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import {
   Dropdown,
@@ -7,16 +6,19 @@ import {
   Link,
 } from "./DropDown.style";
 
-function DropDown({ dropdown }) {
-  const [open, setOpen] = useState(false);
+function DropDown({ dropdown, dispatch, state, id }) {
+  function toggleClick(e) {
+    dispatch({ type: id });
+  }
 
   return (
     <Dropdown>
-      <DropdownHeading onClick={() => setOpen((prev) => !prev)}>
-        {dropdown.title} {open ? <IoIosArrowUp /> : <IoIosArrowDown />}
+      <DropdownHeading onClick={() => toggleClick()}>
+        {dropdown.title}{" "}
+        {state[`nav${id}open`] ? <IoIosArrowUp /> : <IoIosArrowDown />}
       </DropdownHeading>
 
-      {open && (
+      {state[`nav${id}open`] && (
         <DropdownLinks>
           {dropdown.links.map((link, index) => {
             return <Link key={index}>{link}</Link>;

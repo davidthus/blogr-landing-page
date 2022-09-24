@@ -19,10 +19,6 @@ export const DropdownHeading = styled.p`
     text-decoration: underline;
     opacity: 1;
   }
-
-  /* @media screen and (max-width: 800px){
-
-  } */
 `;
 
 export const DropdownLinks = styled.ul`
