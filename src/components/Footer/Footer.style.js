@@ -87,4 +87,7 @@ export const Link = styled.p`
   }
 `;
 
-export const LogoWrapper = styled.aside``;
+export const Attribution = styled.div`
+  background-color: hsl(7, 99%, 70%);
+  font-family: "Barlow", sans-serif;
+`;

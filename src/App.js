@@ -14,7 +14,6 @@ function App() {
       <Middle />
       <Bottom />
       <Footer />
-      Challenge by Frontend Mentor. Coded by Your Name Here.
     </AppContainer>
   );
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import { ReactComponent as Logo } from "../../images/logo.svg";
 import {
+  Attribution,
   Container,
   GroupHeading,
   GroupsContainer,
@@ -20,14 +21,20 @@ const dropdowns = [
 
 function Footer() {
   return (
-    <Container>
-      <Logo />
-      <GroupsContainer>
-        {dropdowns.map((group, index) => {
-          return <Group group={group} key={index} />;
-        })}
-      </GroupsContainer>
-    </Container>
+    <>
+      <Container>
+        <Logo />
+        <GroupsContainer>
+          {dropdowns.map((group, index) => {
+            return <Group group={group} key={index} />;
+          })}
+        </GroupsContainer>
+      </Container>
+      <Attribution>
+        Challenge by Frontend Mentor. Coded by{" "}
+        <a href="https://github.com/davidthus">davidthus</a>.
+      </Attribution>
+    </>
   );
 }
 
