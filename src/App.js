@@ -14,9 +14,7 @@ function App() {
       <Middle />
       <Bottom />
       <Footer />
-      Product Overview Pricing Marketplace Features Integrations Company About
-      Team Blog Careers Connect Contact Newsletter LinkedIn Challenge by
-      Frontend Mentor. Coded by Your Name Here.
+      Challenge by Frontend Mentor. Coded by Your Name Here.
     </AppContainer>
   );
 }
